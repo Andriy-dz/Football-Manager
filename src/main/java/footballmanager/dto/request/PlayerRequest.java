@@ -13,6 +13,6 @@ public class PlayerRequest {
     private Integer age;
     @NotNull(message = "Experience should not be null")
     private Integer experience;
-    @Min(value = 15, message = "TeamId must be greater than 0")
+    @Min(value = 0, message = "TeamId must be greater than 0")
     private Long teamId;
 }
